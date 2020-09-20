@@ -1,0 +1,51 @@
+.price {
+  //height: 130vh;
+  //background-image: url("../img/price.jpg");
+  background-position: left;
+  background-color: $beige;
+  //background-blend-mode: multiply;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+
+  &__heading {
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 120%;
+      height: 3px;
+      background-color: $green;
+      margin: 1.5rem auto;
+      left: -10%;
+    }
+  }
+
+  &__subheading {
+    margin-bottom: 3rem;
+  }
+
+  i {
+    font-size: 4rem;
+    margin: 0;
+    margin-top: 3rem;
+    color: $green;
+  }
+
+  h6 {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $green;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
+  &__icons {
+    .row {
+      margin-left: 10rem;
+    }
+  }
+}

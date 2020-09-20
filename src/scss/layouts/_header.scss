@@ -1,0 +1,90 @@
+.header {
+  height: 85vh;
+  background: url("../img/team.jpg"),
+    linear-gradient(to right, $dark-blue, darken($dark-blue, 20%));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-blend-mode: multiply;
+  font-size: 2rem;
+  color: white;
+
+
+  &__logo{
+      padding: 1rem 0 0 3rem;
+  }
+
+  &__mobile-nav{
+      display: none;
+  }
+
+  &__main-nav,
+  &__second-nav{
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  &__main-nav{
+      ul{
+          li{
+              position: relative;
+             margin-right: 2rem;
+              margin-left: 2rem;
+              
+            &:not(:last-child):after {
+                content:'';
+                display: inline-block; 
+                position: absolute;
+                      height: 120%;
+                      width: 2px;
+                      //margin-left: 2rem;
+
+                      margin-right: 20px;
+                      margin-left: 20px;
+                      border-radius: 1px;
+                      background-color: whitesmoke;
+
+
+            } 
+          }
+      }
+    }
+
+    &__second-nav{
+        padding-right: 3rem;
+        ul{
+            //margin-right: 2rem;
+
+            li{
+                margin-right: 1.2rem;
+            }
+        }
+        
+    }
+
+  &__heading {
+    padding-top: 17rem;
+  }
+
+&__text {
+    letter-spacing: 1px;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: -2rem;
+    padding-bottom: 16rem;
+  }
+
+  &__icon{
+      width: 6rem;
+      height: 6rem;
+      background-color: $green;
+      border: 3px solid $white;
+      border-radius: 50%;
+      margin-top: -3rem;
+  }
+
+  .fa-angle-down{
+      font-size: 3rem;
+  }
+}

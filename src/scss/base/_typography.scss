@@ -1,0 +1,78 @@
+
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+ 
+ /* @include mQ($lg) {
+    font-size: 6.7rem;
+   
+  }
+  @include mQ($md) {
+    font-size: 5.5rem;
+   
+  }
+  @include mQ($sm) {
+    font-size: 4.5rem;
+   
+  }
+  @include mQ($xs) {
+    font-size: 4rem;
+    
+  }*/
+}
+/*
+h2 {
+  font-size: 80px;
+  
+
+  @include mQ($lg) {
+    font-size: 77px;
+    
+  }
+  @include mQ($md) {
+    font-size: 48px;
+
+  }
+  @include mQ($sm) {
+    font-size: 40px;
+    
+  }
+  @include mQ($xs) {
+    font-size: 34px;
+  }
+}
+*/
+p{
+  font-size: 1.5rem;
+}
+
+h5{
+font-size: 1.7rem;
+font-weight: 500;
+}
+
+h6{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+  
+
+
+//nav
+
+.nav {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 300;
+
+  @include mQ($md) {
+    font-size: 1.5rem;
+  }
+  @include mQ($sm) {
+    font-size: 1.1rem;
+  }
+  @include mQ($xs) {
+    font-size: 1rem;
+  }
+}
+

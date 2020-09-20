@@ -1,0 +1,66 @@
+.notify {
+  font-size: 1.5rem;
+
+  background-image: url("../img/notify.jpg");
+  background-position: left;
+  //background-color: $blue;
+  background-color: $dark-blue;
+  background-blend-mode: multiply;
+  color: $white;
+  height: 90vh;
+
+  &__heading {
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  label {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  input {
+    background: transparent;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 3px 3px 15px 3px darken($dark-blue, 25%);
+
+    &::placeholder {
+      color: $blue;
+      vertical-align: text-bottom;
+    }
+
+    &:focus {
+      border: 1px solid $white;
+    }
+  }
+
+  /*.submit-wrapper{
+      //flex: 1;
+      background:transparent;
+      color: red;
+      border: 2px solid $white;
+      //padding: 95%;
+      box-shadow: none;
+      border-radius: 10%;
+  }*/
+
+  button[type="submit"] {
+    box-shadow: none;
+    background: transparent;
+    color: $white;
+    border: 2px solid $white;
+    padding: 1.2em 27em;
+    border-radius: 22px;
+    display: inline-block;
+    font-weight: 600;
+  }
+}

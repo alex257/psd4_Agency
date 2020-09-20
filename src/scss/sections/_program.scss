@@ -1,0 +1,46 @@
+.program {
+  font-size: 1.4rem;
+  line-height: 1.7;
+  letter-spacing: 1px;
+
+  &__row {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  &__heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__image {
+    width: 50rem;
+    height: 30rem;
+    //margin: 4rem 0 4rem 0;
+    //margin-left: 16rem;
+  }
+
+  &__list {
+    display: table;
+
+    .tr {
+      display: table-row;
+      margin: 20px;
+    }
+
+    .td {
+      display: table-cell;
+
+      .dot {
+        display: block;
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        background: $green;
+        margin-right: 10px;
+      }
+    }
+  }
+}

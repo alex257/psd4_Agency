@@ -1,0 +1,85 @@
+.benefits {
+  //height: 90vh;
+  background-color: $beige;
+  letter-spacing: 1px;
+
+  &__row{
+    padding-top: 4rem;
+  }
+
+  i {
+    font-size: 5rem;
+    color: $green;
+    margin-top: 6rem;
+  }
+
+  &__heading {
+    font-size: 2rem;
+    //letter-spacing: 1px;
+  }
+  &__text {
+    max-width: 60%;
+    font-size: 1.5rem;
+    line-height: 1.9;
+  }
+
+  &__image {
+    border-radius: 50%;
+    height: 25rem;
+    max-width: 25rem;
+    margin-top: 6rem;
+  }
+
+  &__container--second{
+      margin-top: 12rem;
+      margin-bottom: 8rem;
+      
+  }
+
+
+  &__bubble {
+    //width: 120%;
+    //height: 10%;
+    background-color: $white;
+    position: relative;
+    p{
+        padding: 1rem;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      right: 20px;
+      top: 50%;
+      width: 0;
+      height: 0;
+      border: 25px solid transparent;
+      border-left: 20px solid $white;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -4rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 1.9;
+    }
+  }
+
+
+   &__person{
+       margin-left: 7rem;
+   }
+  &__person-image {
+    border-radius: 50%;
+    width: 11rem;
+    height: 11rem;
+    border: solid 2px $white;
+  }
+
+  &__role {
+    line-height: 0.5;
+    font-size: 1.5rem;
+  }
+}
